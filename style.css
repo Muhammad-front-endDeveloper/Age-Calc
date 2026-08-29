@@ -1,0 +1,63 @@
+:root {
+    --main-color: #2563EB;
+    --bg-color: #F8F9FA;
+}
+
+body {
+    background-color: var(--bg-color, #F8F9FA);
+}
+
+.app {
+    background-color: #fff;
+    height: fit-content;
+    width: fit-content;
+    padding: 30px;
+    border-radius: 20px;
+    margin: 70px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+}
+
+h1, .txt {
+    text-align: center;
+}
+
+.txt {
+    opacity: 0.6;
+    margin-bottom: 32px;
+    margin-top: 8px;
+}
+
+h1, p#result {
+    color: var(--main-color, #2563EB);
+}
+
+input, button {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+input {
+    outline: none;
+    border-style: solid;
+    border-color: #E5E7EB;
+    text-align: center;
+    width: 90%;
+}
+
+button {
+    background-color: var(--main-color, #2563EB);
+    color: #fff;
+    border: none;
+    height: fit-content;
+    text-align: center;
+    width: 98%;
+}
+
+@media (max-width: 600px) {
+    .app {
+        width: 80%;
+    }
+}

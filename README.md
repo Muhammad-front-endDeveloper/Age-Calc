@@ -12,7 +12,7 @@ Built to practice working with the JavaScript Date object.
 - Responsive design for mobile and desktop
 
 ## Live Demo
-- **Netlify**: in second...
+- **Netlify**: https://simple-age-calculator1.netlify.app/
 - **GitHub Pages**: not yet set
 
 ## How to Use
